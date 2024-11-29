@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+:root {
+  --white: #fafafa;
+  --purple: #53005c;
+}
+
+body {
+  background-color: var(--white);
+}
+
+header {
+  padding: 2rem;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+a {
+  color: initial;
+}
+
+.visible {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header,
+  main {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+.active {
+    font-weight: 550;
+}
+
+.user-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.user-menu-title h2 {
+    font-size: 1.8rem;
+}
+
+.user-menu-title p {
+    font-size: 12px;
+}
+
+.user-menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.user-menu-links a:hover, .disconnect-btn:hover {
+    text-decoration: underline;
+}
+
+.disconnect-btn {
+    cursor: pointer;
+}

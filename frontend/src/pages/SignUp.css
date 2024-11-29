@@ -1,0 +1,81 @@
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px grey;
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.signin-form h1 {
+    margin-bottom: 1rem;
+}
+.signin-form label {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.signin-form input {
+    width: 100%;
+    outline: none;
+    height: 2.2rem;
+}
+
+.signin-form label p {
+    font-size: 12px;
+}
+
+.signin-form a, .signin-login p {
+    font-size: 10px;
+}
+
+.signin-form a {
+    text-decoration: underline;
+}
+
+.signin-login {
+    display: flex;
+}
+
+
+.signin-form #submit {
+    width: 80%;
+    height: 2.6rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+.password-input img {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    right: 1rem;
+    bottom: 1.5rem;
+}
+
+.password-input .error {
+    position: relative;
+    bottom: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 10px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .signin-form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .signin-form {
+        width: 85%;
+    }
+}

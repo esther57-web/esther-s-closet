@@ -1,0 +1,77 @@
+@import url('../index.css');
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px grey;
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+}
+
+.login-form h1 {
+    margin-bottom: 1rem;
+}
+.login-form label {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+.login-form input {
+    width: 100%;
+    outline: none;
+    height: 2.2rem;
+}
+
+.login-form label p {
+    font-size: 12px;
+}
+
+.login-form a, .login-sign-in p {
+    font-size: 10px;
+}
+
+.login-form a {
+    text-decoration: underline;
+}
+
+.login-sign-in {
+    display: flex;
+}
+
+.forgot-link {
+    display: flex;
+    justify-content: end;
+}
+
+.login-form #submit {
+    width: 80%;
+    height: 2.6rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+
+.password-input img {
+    display: flex;
+    margin-left: auto;
+    position: relative;
+    right: 1rem;
+    bottom: 1.5rem;
+}
+
+@media screen and (max-width: 900px) {
+    .login-form {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-form {
+        width: 85%;
+    }
+}
